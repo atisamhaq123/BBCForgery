@@ -1,0 +1,297 @@
+html,body{
+	margin: 0;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+
+header{
+	background-color: black;
+	color: white;
+}
+
+/* ------- Font-Sizes -------*/
+
+.size18{
+	font-size: 18px;
+}
+
+.size22{
+	font-size: 22px;
+}
+
+/* ---x--- Font-Sizes ---x---*/
+
+/* ----- Colors ----- */
+.white{
+	color: white;
+}
+
+.gray{
+	color: rgba(255,255,255,0.7);
+}
+
+.text-gray{
+	color: #404040;
+}
+
+.border-red{
+	border-left: 2px solid red;
+}
+
+.border-blue{
+	border-left: 2px solid blue;
+}
+
+.border-yellow{
+	border-left: 2px solid yellow;
+}
+
+.border-footer{
+	padding-left: 10px;
+	border-left: 2px solid rgb(255,255,255,0.8);
+}
+/* --x-- Colors --x-- */
+
+/* ------- Global classes -------*/
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.center{
+	margin: 0 auto;
+}
+
+.home-news img{
+	filter: brightness(60%);
+}
+
+svg{
+	width: 20px;
+	height: auto;
+}
+
+h2{
+	color: #333333;
+}
+
+.img3x2{
+	width: 300px;
+	height: 200px;
+}
+
+.img4x3{
+	width: 400px;
+	height: 250px;
+}
+
+.img6x4{
+	width: 600px;
+	height: 410px;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.align-right{
+	text-align: right;
+}
+/* ---x--- Global classes ---x---*/
+
+/* ----- header ------*/
+nav{
+	margin: auto;
+}
+
+.sign-in{
+	padding-left: 15px;
+}
+
+.logo{
+	margin: auto 0;
+	padding-right: 15px;
+	border-right: 1px solid white;
+}
+
+.sign-in a{
+	color: white;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.logo-heading{
+	padding: 1px 3px;
+	background-color: white;
+	color: black;
+	font-family: monospace;
+}
+
+.menu-bar{
+	padding: 5px 0px;
+}
+
+.menu-bar span{
+	padding: 0px 20px;
+	font-size: 18px;
+	border-left: 1px solid white;
+	height: 100%;
+	font-family: monospace;
+}
+
+.search-box{
+	background-color: white;
+	margin: 8px 0px;
+	padding: 3px;
+}
+
+.search{
+	outline: none;
+	border: none;
+}
+
+.search-box svg{
+	color: gray;
+}
+
+/* --x-- headerr --x--*/
+
+/* ----- main -----*/
+
+table{
+	margin: 0 auto;
+}
+
+.heading{
+	display: flex;
+	color: gray;
+}
+
+
+.title{
+	position: absolute;
+	top: 55%;
+	left: 6%;
+	color: white;
+	font-family: sans-serif;
+}
+
+.para{
+	position: absolute;
+	font-weight: lighter;
+	font-size: 18px;
+	top: 62%;
+	left: 6%;
+}
+
+.alignment{
+	position: absolute;
+	padding: 5px;
+}
+
+.title-pos-1{
+	top: 32%;
+}
+
+#news-title{
+		margin: 10px 0px;
+}
+
+.title-pos-2{
+	top: 62%;
+}
+
+.news h2{
+	padding-left: 15px;
+	border-left: 4px solid red;
+}
+
+.news-td{
+	max-width: 420px;
+	height: auto;
+}
+
+.news-td-4{
+	max-width: 300px;
+	height: auto;
+}
+
+.padding10px{
+	padding-right: 10px;
+}
+
+.news-td h3{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.ad{
+	width: 356px;
+	background: #f2f2f2;
+}
+
+.tag{
+	padding: none;
+	padding-left: 10px;
+	font-weight: lighter;
+}
+
+.sports h2{
+	padding-left: 15px;
+	border-left: 4px solid yellow;
+}
+
+.nust h2{
+	padding-left: 15px;
+	border-left: 4px solid blue;
+}
+
+#reel{
+	width: 100%;
+	background-image: url("https://images.unsplash.com/photo-1598328064863-e1fddb36453d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+	background-size: cover;
+}
+
+.reel-title{
+	padding-left: 20px;
+}
+
+#asia-news td{
+	padding-right: 20px;
+}
+
+footer{
+	background-color: #666666;
+}
+
+.footer-btn{
+	font-size: 14px;
+}
+
+.padding-top{
+	padding-top: 15px;
+}
+
+.padding-mid-top{
+	padding-top: 8px;
+}
+
+.padding-mid-btm{
+	padding-bottom: 8px;
+}
+
+.padding-btm{
+	padding-bottom: 15px;
+}
+
+.footer-btn th{
+	padding-right: 150px;
+	font-weight: lighter;
+}
+
+.footer-btn span{
+	padding-right: 10px;
+}
